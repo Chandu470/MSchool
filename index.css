@@ -1,0 +1,96 @@
+﻿body {
+    font-size: 15px !important;
+    border-top: dashed;
+    border-bottom: dashed;
+    border-color: orangered;
+    font-size: x-large;
+    margin: 0%;
+    padding: 0%;
+    background: #43cea2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #185a9d, #43cea2); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top:2% !important;
+    margin-bottom: 2% !important;
+}
+.navbar{
+    padding-top:1% !important;
+    padding-bottom:1% !important;
+}
+.nbrand {
+    font-weight: bold;
+    color: orangered;
+    font-family: 'Amarante', cursive;
+}
+.sp {
+    color: darkblue;
+    font-family: 'Amarante', cursive;
+}
+.nav-link{
+    font-size: 15px !important;
+}
+.nlink:hover{
+    color: darkblue;
+}
+.form-control{
+    margin-right:0px !important;
+    
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color:#c1bfbf;
+}
+.a-tag{
+    text-decoration:none;
+    color:black;
+}
+.ps-intro-div{
+    padding:2%;
+}
+.ps-h2, .ps-h5 {
+    text-align: center;
+    padding:0%;
+}
+.ps-hr{
+    width:15%;
+    padding:0% !important;
+    border:1px solid orange;
+    color:orangered;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+.cpyrights{
+    color:fuchsia !important;
+}
